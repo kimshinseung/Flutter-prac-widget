@@ -21,3 +21,8 @@ A new Flutter project.
 # Stateless Widget
  - build 메서드를 통해서 단지 UI 출력한다.
  - 데이터를 가지고 있지 않는다.
+
+# BuildContext
+- 모든 상위 요소들에 대한 정보
+- widget tree : root -> App -> materialApp -> Scaffold ...
+- 즉, 위젯 트리에 대한 정보가 담겨있다.
