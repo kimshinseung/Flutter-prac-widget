@@ -10,6 +10,7 @@ A new Flutter project.
 - 두가지 상태 존재
 - 1. 상태가 없는 위젯
   2. 위젯의 상태로 데이터와 UI가 들어간다.
+- 데이터가 변경되면 위젯의 상태도 변화된다.
 
 # Stateless Widget
  - build 메서드를 통해서 단지 UI 출력한다.
