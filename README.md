@@ -26,3 +26,13 @@ A new Flutter project.
 - 모든 상위 요소들에 대한 정보
 - widget tree : root -> App -> materialApp -> Scaffold ...
 - 즉, 위젯 트리에 대한 정보가 담겨있다.
+
+# LifeCycle
+- InitState()메서드
+- 1. **build메서드보다 먼저 호출되어야 한다.**
+  2. 오직 한 번만 호출된다.
+  3. super.initState()호출해야한다.
+- dispose()메서드
+- 1. **위젯이 스크린에서 제거될 때 호출**
+  2. 위젯트리에서 제거될 때 실행
+  3. ex) 이벤트 리스너 등의 구독을 취소할 때 사용
